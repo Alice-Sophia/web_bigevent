@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3000178 */
-  src: url('iconfont.woff2?t=1642244366057') format('woff2'),
-       url('iconfont.woff?t=1642244366057') format('woff'),
-       url('iconfont.ttf?t=1642244366057') format('truetype');
+  src: url('iconfont.woff2?t=1642320984287') format('woff2'),
+       url('iconfont.woff?t=1642320984287') format('woff'),
+       url('iconfont.ttf?t=1642320984287') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,58 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mima:before {
+  content: "\e648";
+}
+
+.icon-mima1:before {
+  content: "\e7b8";
+}
+
+.icon-mima2:before {
+  content: "\e649";
+}
+
+.icon-mima3:before {
+  content: "\e64b";
+}
+
+.icon-mima4:before {
+  content: "\e64c";
+}
+
+.icon-password:before {
+  content: "\e64e";
+}
+
+.icon-mima5:before {
+  content: "\e64f";
+}
+
+.icon-mima6:before {
+  content: "\e650";
+}
+
+.icon-weibiaoti--:before {
+  content: "\e655";
+}
+
+.icon-mima7:before {
+  content: "\e657";
+}
+
+.icon-mima8:before {
+  content: "\e8b2";
+}
+
+.icon-mima9:before {
+  content: "\e65e";
+}
+
+.icon-mima10:before {
+  content: "\e65f";
 }
 
 .icon-24:before {

@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="/assets/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/font/iconfont.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
+    <script src="/assets/js/login.js"></script>
+    <script src="/assets/lib/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="inner">
+        <div class="logo-box">
+            <img src="/assets/images/logo.png" alt="" />
+        </div> 
+        <div class="login-box">
+            <div class="login-title"></div>
+            <div class="login-content">
+                <form id="login-form">
+                    <div class="form-group">
+                        <span class="iconfont icon-icon03"></span>
+                        <input type="text" class="form-control" name="username" placeholder="请输入用户名">                        
+                    </div>
+                    <div class="form-group">
+                        <span class="iconfont icon-mima3"></span>
+                        <input type="password" class="form-control" name="password" placeholder="请输入密码">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-lg btn-block" id="login-btn">登录</button>
+                    </div>
+                    <div class="form-group form-group-link">
+                        <a href="javascript:;" id="login-link">去注册账号</a>
+                    </div>
+                </form>
+            </div>
+            <div class="reg-content">
+                <form id="reg-form">
+                    <div class="form-group">
+                        <span class="iconfont icon-icon03"></span>
+                        <input type="text" class="form-control" name="username" placeholder="请输入用户名">                        
+                    </div>
+                    <div class="form-group">
+                        <span class="iconfont icon-mima3"></span>
+                        <input type="password" class="form-control" name="password" placeholder="请输入密码">
+                    </div>
+                    <div class="form-group">
+                        <span class="iconfont icon-mima3"></span>
+                        <input type="password" class="form-control" name="repassword" placeholder="请再次输入密码">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-lg btn-block" id="reg-btn">注册账号</button>
+                    </div>
+                    <div class="form-group form-group-link">
+                        <a href="javascript:;" id="reg-link">去登录</a>
+                    </div>
+                </form>
+                
+            </div>
+
+        </div>     
+    </div>
+
     
 </body>
 </html>
