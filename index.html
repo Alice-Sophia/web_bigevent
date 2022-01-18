@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <link rel="stylesheet" href="/assets/lib/main.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
+    <script src="/assets/js/index.js"></script>
+
 </head>
 <body>
+    <div class="parent-box">
+        <div class="nav-left">
+            <div class="avatar">
+                <img id="user-avatar" src="/assets/images/logo.png" alt="">
+                <div id="usersname"></div>
+            </div>
+            <ul>
+                <li><a href="/home/dashboard.html" target="fm">首页</a></li>
+                <li><a href="/users/users_avatar.html" target="fm">更换头像</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <iframe name="fm" src="/home/dashboard.html" frameborder="0"></iframe>
+        </div>
+    </div>
     
 </body>
 </html>

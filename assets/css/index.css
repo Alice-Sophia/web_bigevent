@@ -1,0 +1,41 @@
+.parent-box {
+    width: 1500px;
+    margin: 0 auto;
+    overflow: hidden !important;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left {
+    width: 120px;
+}
+
+.nav-left .avatar {
+    margin-left: 10px;
+}
+
+.nav-left .avatar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.nav-left .avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.content {
+    float: left;
+    width: 1350px;
+    height: 650px;
+}
+
+.content iframe{
+    width: 100%;
+    height: 100%;
+}
+
